@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Cookie Clicker</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <p id="cookie-text"> Cookies:0 </p>
+    <input type="button" name="" value="Bake a cookie" onClick="bakeCookie()"><br>
+<input class="reset" type="button" name="" value="Reset" onClick="reset()">
+<script>
+  var cookie = 0;
+
+  function bakeCookie(){
+     cookie +=1;
+    document.getElementById('cookie-text').innerHTML = "Cookies:" + cookie ;
+  }
+  function reset(){
+    cookie = 0;
+    document.getElementById('cookie-text').innerHTML ="Cookies:"+ cookie;
+  }
+</script>
+  </body>
+</html>

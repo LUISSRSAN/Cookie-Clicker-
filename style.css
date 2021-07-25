@@ -1,0 +1,17 @@
+p{
+  font-size:100px;
+  font-family: sans-serif;
+  font-weight:bold;
+  color:Blue;
+  margin-left:auto;
+  text-align:center;
+}
+input{
+  font-size:60px;
+  margin-left:550px;
+
+}
+.reset{
+  margin-top: 100px;
+  margin-left:650px;
+}
